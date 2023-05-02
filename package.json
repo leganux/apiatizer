@@ -1,0 +1,21 @@
+{
+  "name": "apiatizer",
+  "version": "1.0.1",
+  "description": "CLI for APIATO CRUD MAKER",
+  "bin": {
+    "apiatizer": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./lib/index.js"
+  },
+  "keywords": [],
+  "repository": "https://github.com/leganux/apiatizer.git",
+  "author": "erick.cruz@leganux.com",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "extend-shallow": "^3.0.2",
+    "git-config-path": "^2.0.0",
+    "parse-git-config": "^3.0.0"
+  }
+}
